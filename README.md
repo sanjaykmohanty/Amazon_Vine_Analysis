@@ -19,5 +19,6 @@ We used PySpark to determine if there is any bias toward favorable reviews from 
 ![image](https://user-images.githubusercontent.com/31812730/209446505-b715123d-4f7b-4f40-9543-bf89afc5152b.png)
 
 ## Summary
-51% of the reviews in the Vine program were 5 stars reviews whereas the percentage in the non-Vine reviews is only 39%. This describes a positivity bias for reviews in the Vine program.
-Additionally we could analyse the statistical distribution (mean, median and mode) of the star rating for the Vine and non-Vine reviews.
+- vine review is a very small sample compaird to non-vine
+- No bias noticed
+- 
