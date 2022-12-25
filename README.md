@@ -19,6 +19,14 @@ We used PySpark to determine if there is any bias toward favorable reviews from 
 ![image](https://user-images.githubusercontent.com/31812730/209446505-b715123d-4f7b-4f40-9543-bf89afc5152b.png)
 
 ## Summary
-- vine review is a very small sample compaird to non-vine
-- No bias noticed
-- 
+The results suggest that Vine members did only 16 reviews out of which 20 are 5-star reviews, which translates to about 33% of 5-star reviews. Whereas Non-Vine members did 28,287 revies out of which 15,689 are 5-star reviews, which translates to 55% of 5-star reviews. 
+
+Based on the results, one could conclude that Vine members did not show bias when rating their products. The number of 5-star ratings by the Vine members was about 22% less than non-Vine members (33% vs. 55%). 
+
+Although it seems like Vine customers are more critical when submitting their review, to reach a conclusion, all data should be included rather than filtering the data to a percentage of helpful vs. total votes. Reviewing all the data available in the dataset would give more insight to the reviews. As shown below, the Vine members' 5-star rating is at 34% but the non-Vine members' 5-star ratings is at 69%. The analysis supports the claim that there is no bias in Vine members' review ratings. 
+
+![image](https://user-images.githubusercontent.com/31812730/209476761-101d8ffe-f813-4d01-b8d6-ab4eb3eaaa2a.png)
+
+This analysis is done solely on the US Grocery data. Similar analysis can be done on all other available datasets to understand if there is bias for any specific products, or the no bias claim is true across the board.
+
+
